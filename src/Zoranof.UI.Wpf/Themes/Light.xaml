@@ -26,19 +26,19 @@
 
 
     <Color x:Key="PinkColor">#ed6ea0</Color>
-    <SolidColorBrush x:Key="PinkColorBrush" Color="#ed6ea0"/>
+    <SolidColorBrush x:Key="PinkColorBrush" Color="{DynamicResource PinkColor}"/>
     <Color x:Key="RedColor">#e9546b</Color>
-    <SolidColorBrush x:Key="RedColorBrush" Color="#e9546b"/>
-    <Color x:Key="PurpleColor">#9d5b8b</Color>
-    <SolidColorBrush x:Key="PurpleColorBrush" Color="#9d5b8b"/>
+    <SolidColorBrush x:Key="RedColorBrush" Color="{DynamicResource RedColor}"/>
+    <Color x:Key="PurpleColor">#660479</Color>
+    <SolidColorBrush x:Key="PurpleColorBrush" Color="{DynamicResource PurpleColor}"/>
     <Color x:Key="BlueColor">#188FFD</Color>
-    <SolidColorBrush x:Key="BlueColorBrush" Color="#188FFD"/>
+    <SolidColorBrush x:Key="BlueColorBrush" Color="{DynamicResource BlueColor}"/>
     <Color x:Key="YellowColor">#eab700</Color>
-    <SolidColorBrush x:Key="YellowColorBrush" Color="#eab700"/>
+    <SolidColorBrush x:Key="YellowColorBrush" Color="{DynamicResource YellowColor}"/>
     <Color x:Key="GreenColor">#0a7426</Color>
-    <SolidColorBrush x:Key="GreenColorBrush" Color="#0a7426"/>
+    <SolidColorBrush x:Key="GreenColorBrush" Color="{DynamicResource GreenColor}"/>
     <Color x:Key="OrangeColor">#ec8c69</Color>
-    <SolidColorBrush x:Key="OrangeColorBrush" Color="#ec8c69"/>
+    <SolidColorBrush x:Key="OrangeColorBrush" Color="{DynamicResource OrangeColor}"/>
 
     <Color x:Key="SuccessColor">#00ff00</Color>
     <SolidColorBrush x:Key="SuccessColorBrush" Color="{DynamicResource SuccessColor}"/>
