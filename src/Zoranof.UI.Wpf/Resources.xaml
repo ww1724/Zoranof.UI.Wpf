@@ -13,6 +13,7 @@
     <converters:Var2StringConverter x:Key="Var2StringConverter" />
     <converters:WindowMaximized2BorderThickness x:Key="WindowMaximized2BorderThickness"/>
     <converters:Nulls2VisibilityConverter x:Key="Nulls2VisibilityConverter" />
+    <converters:ReverseBoolConverter x:Key="ReverseBoolConverter"/>
 
     <!-- Assets -->
     <FontFamily x:Key="LxwkFontFamily">
